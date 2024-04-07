@@ -1,0 +1,45 @@
+# Blackjack Game
+
+This is a simple console-based implementation of the classic casino card game, Blackjack, written in Java. The game follows traditional Blackjack rules and allows players to interact via the command line interface.
+
+## Description
+
+Blackjack, also known as 21, is a popular casino game where players compete against the dealer to have a hand value as close to 21 as possible without going over. In this console-based version of the game, players can hit to receive additional cards or stand to keep their current hand. The dealer follows a specific set of rules for hitting and standing. The player with the hand closest to 21 without exceeding it wins the round.
+
+## Features
+
+- Shuffling and dealing of cards from a standard 52-card deck
+- Interactive gameplay allowing players to hit or stand
+- Dealer logic for automatically hitting until reaching a hand total of 17 or higher
+- Hand value calculation and bust detection
+- Display of game outcome and winner determination
+
+
+## How to Play
+
+1. Compile the Java files using a Java compiler. You can use the following command:
+    ```
+    javac *.java
+    ```
+
+2. Run the compiled Main class to start the game:
+    ```
+    java Main
+    ```
+
+3. Follow the prompts in the console to play the game. Enter 'h' to hit or 's' to stand when prompted.
+
+## File Structure
+
+The game consists of several Java source files organized as follows:
+
+- `Card.java`: Defines the Card class representing a playing card.
+- `Deck.java`: Defines the Deck class representing a deck of 52 cards.
+- `Player.java`: Defines the Player class representing a player in the game.
+- `Dealer.java`: Defines the Dealer class, which inherits from Player and implements dealer-specific logic.
+- `Game.java`: Defines the Game class, which orchestrates the game's logic.
+- `Main.java`: Contains the main method to start the game.
+
+## Contributing
+
+Contributions to improve the game or add new features are welcome. Please fork the repository, make your changes, and submit a pull request.
